@@ -1,0 +1,10 @@
+name: minion
+version: 0.0.1
+description: A simple command-line application created by dcli
+environment: 
+  sdk: '>=2.18.0 <3.0.0'
+dependencies: 
+  dcli: 1.34.0
+  dcli_core: ^2.0.0-beta.8
+dev_dependencies: 
+  lint_hard: ^2.0.0
