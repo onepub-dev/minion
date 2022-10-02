@@ -8,10 +8,10 @@ import 'package:test/test.dart';
 void main() {
   test('spawn', () async {
     var spawned = false;
-    final minion = Minion<String>(spawn: () async {
+    Minion<void>(spawn: () async {
       spawned = true;
-    })
-      ..run();
+      return;
+    }).run();
 
     expect(spawned, isTrue);
   });

@@ -123,17 +123,17 @@ packages:
   dcli:
     dependency: "direct main"
     description:
-      name: dcli
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.34.0"
+      path: "../dcli/dcli"
+      relative: true
+    source: path
+    version: "2.0.0-beta.9"
   dcli_core:
     dependency: "direct main"
     description:
-      name: dcli_core
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.34.0"
+      path: "../dcli/dcli_core"
+      relative: true
+    source: path
+    version: "2.0.0-beta.8"
   equatable:
     dependency: transitive
     description:
@@ -357,7 +357,7 @@ packages:
       name: settings_yaml
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.5.0"
+    version: "5.0.0-beta.2"
   shelf:
     dependency: transitive
     description:
@@ -414,13 +414,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.10.0"
-  stacktrace_impl:
-    dependency: transitive
-    description:
-      name: stacktrace_impl
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.3.0"
   stream_channel:
     dependency: transitive
     description:
