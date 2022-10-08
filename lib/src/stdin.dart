@@ -52,6 +52,7 @@ class MinionStdin extends Stream<List<int>> implements Stdin {
 
   void close() {
     _blockQueue.close();
+    unawaited(controller.close());
   }
 
   @override
